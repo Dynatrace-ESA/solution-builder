@@ -9,9 +9,13 @@
     "tsc": "tsc"
   },
   "files": [
+    "bin",
     "dist",
     "README.md"
   ],
+  "bin": {
+    "solution-builder": "./bin/solution-builder"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dynatrace-ESA/solution-builder.git"
