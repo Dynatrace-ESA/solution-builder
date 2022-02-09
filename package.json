@@ -1,0 +1,30 @@
+{
+  "name": "@dt-esa/solution-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dynatrace-ESA/solution-builder.git"
+  },
+  "author": "Dynatrace ESA Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dynatrace-ESA/solution-builder/issues"
+  },
+  "homepage": "https://github.com/Dynatrace-ESA/solution-builder#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.16",
+    "adm-zip": "^0.5.9",
+    "chalk": "^5.0.0",
+    "shelljs": "^0.8.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "rootDir": "./src/",
+    "outDir": "./dist/",
+    "strict": false
+  }
+}
