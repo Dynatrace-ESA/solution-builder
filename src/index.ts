@@ -31,7 +31,7 @@ const cmdArgs = process.argv.slice(2);
 const docOnly = cmdArgs.length === 1 && cmdArgs[0] === 'doc';
 const devOnly = cmdArgs.length === 0 ||
                 cmdArgs.length === 1 && cmdArgs[0] === 'dev';
-                
+
 const options: any = cmdArgs.reduce((args, arg) => { args[arg] = true; return args; }, {});
 
 const startTime = new Date().getTime();
@@ -89,9 +89,9 @@ const installProductionModules = dirName => {
     shell.cd(sourceDir + '/' + dirName);
 }
 
-const sourceDir = __dirname;
-const buildDir  = __dirname + '/build';
-const distDir   = __dirname + '/dist';
+const sourceDir = process.cwd();
+const buildDir  = process.cwd() + '/build';
+const distDir   = process.cwd() + '/dist';
 const buildDirs = [];
 const defaults = {
     blacklist: [],
