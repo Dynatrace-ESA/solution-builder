@@ -3,6 +3,8 @@
 =====
 A package to build solution distributables in the following formats: Docker, .zip, Dynatrace Extension, static.
 
+A dependency map can be found [here](https://npmgraph.js.org/?q=@dt-esa/solution-builder).
+
 
 ## Configuration
 
